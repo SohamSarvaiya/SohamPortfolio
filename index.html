@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            background: white;
+            padding: 40px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .projects-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .project {
+            padding: 25px;
+            border-bottom: 1px solid #e0e0e0;
+            transition: background 0.3s ease;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project:hover {
+            background: #f8f9fa;
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .project-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .project-title h2 {
+            font-size: 1.4em;
+            color: #2c3e50;
+        }
+
+        .link-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: #667eea;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .link-icon:hover {
+            background: #764ba2;
+            transform: scale(1.1);
+        }
+
+        .link-icon svg {
+            width: 18px;
+            height: 18px;
+            fill: white;
+        }
+
+        .tech-stack {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+
+        .project-description {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .projects-section {
+                padding: 20px;
+            }
+
+            .project {
+                padding: 20px;
+            }
+
+            .project-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PROJECTS</h1>
+        </header>
+
+        <div class="projects-section">
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>Nutritionist</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.nutritionist" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Android Kotlin, Java, Node JS, Firebase</div>
+                <div class="project-description">
+                    World's first and only nutrition application for weight loss or Muscle gain. It's not just a calorie tracker, it's an automated coach! It's a nutritionist. Use the free version for just calorie tracking or go premium to use it as a diet coach. This application was enhanced in Java. using new Android Java and kotlin, Unit Testing, MVVM Architecture.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>Gasable</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.gasable" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Android Java, Kotlin, JetpackCompose, PHP(backend), Firebase</div>
+                <div class="project-description">
+                    Gasable is the easiest way to get your gas cylinder delivered to your doorstep in a few clicks. Ask for your gas cylinder, and distributors will reach you and serve you with pleasure. This application was expanded in Java and Kotlin. using a new third-party library, and also Using Google Maps for the current location, Unit Testing, and using BLE
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>TRIGO</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.trigo" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Android Kotlin (Jetpack Compose), NodeJS(backend)</div>
+                <div class="project-description">
+                    Trigo puts you in control of your physical health and well-being. Explore Trigo programmes and routines, professionally curated by physiotherapists and conveniently delivered through the app to you each day, to help you achieve your goals.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>Pass-Keep Application</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.passkeep" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Jetpack Compose, NodeJS(backend), Firebase</div>
+                <div class="project-description">
+                    I built the Pass-Keep app to securely store sensitive user data, including bank details, login credentials, documents, images, and other large files. The app features robust data protection to ensure user privacy, along with a payment integration system that allows users to purchase storage packages and unlock additional features.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>Nipify</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.nipify" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Android Kotlin, nodeJS(backend), Firebase</div>
+                <div class="project-description">
+                    I built the Nipify application using Kotlin, with full API and Firebase integration. The main goal of this app is to connect developers with potential clients, similar to platforms like Upwork or Freelancer.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>FanFit - Gym App</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.fanfit" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Android Kotlin, PHP(backend)</div>
+                <div class="project-description">
+                    FanFit App uses Kotlin and the MVC architecture pattern to deliver a seamless user experience. The app is designed to cater to fitness enthusiasts and offers a variety of functionalities, including Multiple
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>Inova Juris</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.inovajuris" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Flutter, Node JS(backend), Firebase</div>
+                <div class="project-description">
+                    Inova juris was specially improved to meet the needs of young lawyers, independent lawyers, and offices. With our intuitive control panel, we offer effective management adapted to the specific demands of the legal practice.
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">
+                        <h2>KLoN</h2>
+                        <a href="https://play.google.com/store/apps/details?id=your.app.klon" class="link-icon" target="_blank" title="View on Play Store">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="tech-stack">Flutter, nodeJS(backend)</div>
+                <div class="project-description">
+                    This KLon Application is for use by children's Learning apps. I used LLMs, AI, ChatGPT APIS, and Google Speech APIs. An Avatar can talk to children like play rhymes, learn ABC and 123, and ask related children anything. Avatar talks in real-time in a hologram project and phone, tablet, and Windows apps.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
